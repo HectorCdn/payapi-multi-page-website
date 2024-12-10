@@ -1,0 +1,120 @@
+:root {
+	--primary-dark-pink: #ba4270;
+	--primary-medium-pink: #da6d97;
+	--primary-light-pink: rgba(186, 66, 112, 0.5);
+	--secondary-light-dark-grey: #1b262f;
+	--secondary-dark-grey: #36536b;
+	--secondary-disabled-light-grey: rgb(201, 207, 211);
+}
+
+/* primary */
+
+.button-primary-normal-state-light {
+	font-size: 15px;
+	color: white;
+	border: none;
+	padding: 15px 25px;
+	border-radius: 24px;
+	background-color: var(--primary-dark-pink);
+	font-weight: 700;
+}
+
+.button-primary-hover-state-light {
+	font-size: 15px;
+	color: white;
+	border: none;
+	padding: 15px 25px;
+	border-radius: 24px;
+	background-color: var(--primary-medium-pink);
+	font-weight: 700;
+}
+
+.button-primary-disabled-state-light {
+	font-size: 15px;
+	color: white;
+	border: none;
+	padding: 15px 25px;
+	border-radius: 24px;
+	background-color: var(--primary-light-pink);
+	font-weight: 700;
+}
+
+/* secondary */
+/* (light) */
+
+.button-secondary-normal-state-light {
+	font-size: 15px;
+	color: white;
+	border: none;
+	padding: 15px 25px;
+	border-radius: 24px;
+	background-color: var(--secondary-light-dark-grey);
+	border: 1px solid white;
+	font-weight: 700;
+}
+
+.button-secondary-hover-state-light {
+	font-size: 15px;
+	color: var(--secondary-light-dark-grey);
+	border: none;
+	padding: 15px 25px;
+	border-radius: 24px;
+	background-color: white;
+	border: 1px solid white;
+	font-weight: 700;
+}
+
+.button-secondary-disabled-state-light {
+	font-size: 15px;
+	color: var(--secondary-disabled-light-grey);
+	border: none;
+	padding: 15px 25px;
+	border-radius: 24px;
+	background-color: var(--secondary-light-dark-grey);
+	border: 1px solid var(--secondary-disabled-light-grey);
+	font-weight: 700;
+}
+
+/* dark */
+
+.button-secondary-normal-state-dark {
+	font-size: 15px;
+	color: var(--secondary-dark-grey);
+	border: none;
+	padding: 15px 25px;
+	border-radius: 24px;
+	background-color: white;
+	border: 1px solid var(--secondary-dark-grey);
+	font-weight: 700;
+}
+
+.button-secondary-hover-state-dark {
+	font-size: 15px;
+	color: white;
+	border: none;
+	padding: 15px 25px;
+	border-radius: 24px;
+	background-color: var(--secondary-dark-grey);
+	border: 1px solid var(--secondary-dark-grey);
+	font-weight: 700;
+}
+
+.button-secondary-disabled-state-dark {
+	font-size: 15px;
+	color: var(--secondary-dark-light-grey);
+	border: none;
+	padding: 15px 25px;
+	border-radius: 24px;
+	background-color: white;
+	border: 1px solid var(--secondary-dark-light-grey);
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+

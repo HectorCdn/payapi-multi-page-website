@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+    font-family: "Public Sans";
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,12 +16,38 @@ body {
 }
 
 header {
+    padding: 40px;
 	height: 30%;
-	background-color: rgba(54, 83, 107, 0.2);
-    border-bottom-radius:    50%;
-    border-bottom-right-radius:  50%;
+    background-color: rgba(54, 83, 107, 0.3);
 }
 
 ul {
+    display: flex; 
+    justify-content: space-between;
 	list-style-type: none;
 }
+
+#logo {
+    background: center url(/assets/logo.svg);
+    height: 40px;
+    width: 134px;
+}
+
+#menu {
+    background: center / cover url(/assets/menu.svg);
+    height: 50px;
+    width: 50px;
+    background-color: rgba(54, 83, 107, 1);
+}
+
+.li-class {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+

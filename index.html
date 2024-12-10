@@ -8,14 +8,26 @@
 			name="description"
 			content="Pay-API est un site internet qui vous permettra de faire des transactions simples et en toute sécurité."
 		/>
-		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="./css/element/button.css" />
+		<link rel="stylesheet" href="./css/element/home.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<header>
 			<nav>
 				<ul>
 					<li><div id="logo"></div></li>
-                    <li><div id="menu"></div></li>
+					<li class="home-li"><a href="pages/pricing.html" class="home-button" id="pricing">Pricing</a></li>
+					<li class="home-li"><a href="pages/about.html" class="home-button" id="about">About</a></li>
+					<li class="home-li"><a href="pages/contact.html" class="home-button" id="contact">Contact</a></li>
+					<li class="home-li"><button class="button-secondary-disabled-state-light home-button">Schedule a Demo</button></li>
+					<li class="li-class"><a id="menu"></a></li>
 				</ul>
 			</nav>
 		</header>

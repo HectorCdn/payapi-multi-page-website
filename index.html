@@ -9,8 +9,9 @@
 			content="Pay-API est un site internet qui vous permettra de faire des transactions simples et en toute sécurité."
 		/>
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="./css/reset.css">
 		<link rel="stylesheet" href="./css/element/button.css" />
-		<link rel="stylesheet" href="./css/element/home.css" />
+		<link rel="stylesheet" href="./css/element/home-mobile.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -22,16 +23,30 @@
 		<header>
 			<nav>
 				<ul>
-					<li><div id="logo"></div></li>
+					<div id="logo"></div>
 					<li class="home-li"><a href="pages/pricing.html" class="home-button" id="pricing">Pricing</a></li>
 					<li class="home-li"><a href="pages/about.html" class="home-button" id="about">About</a></li>
 					<li class="home-li"><a href="pages/contact.html" class="home-button" id="contact">Contact</a></li>
-					<li class="home-li"><button class="button-secondary-disabled-state-light home-button">Schedule a Demo</button></li>
-					<li class="li-class"><a id="menu"></a></li>
 				</ul>
+				<a class="menu"></a>
+				<li class="home-li"><button class="button-primary-normal-state-light home-button">Schedule a Demo</button></li>
 			</nav>
 		</header>
-		<main></main>
+		<main>
+			<div class="phone">
+				<div class="phone-image" alt="phone"></div>
+			</div>
+			<section class="first-section">
+				<form action="">
+					<h1>Start building with our APIs for absolutely free.</h1>
+					<div class="mail">
+						<input type="email" placeholder="Enter email address" class="field-email"> 
+						<button class="button-primary-normal-state-light">Schedule a Demo</button>
+					</div>
+					<p class="questions">Have any questions? <a href="">Contact Us</a></p>
+				</form>				
+			</section>
+		</main>
 		<footer></footer>
 	</body>
 </html>

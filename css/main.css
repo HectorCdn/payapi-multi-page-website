@@ -45,6 +45,13 @@ ul {
 	padding: 0;
 }
 
+.menu {
+	background: center / cover url(/assets/menu.svg);
+	width: 28px;
+	height: 17px;
+	
+}
+
 a {
 	color: rgba(54, 83, 107, 0.75);
 	font-family: "Public Sans";
@@ -57,13 +64,6 @@ a {
 
 a:hover {
 	color: rgba(54, 83, 107, 1);
-}
-
-.menu {
-	background: center / cover url(/assets/menu.svg);
-	height: 20px;
-	width: 31px;
-	cursor: pointer;
 }
 
 .button-primary-normal-state-light:hover {
@@ -102,16 +102,21 @@ h1 {
 	letter-spacing: -0.246px;
 }
 
+main {
+   display: flex;
+   flex-direction: column; 
+}
+
 .first-section {
-    display: flex;
-    align-items: center;
     width: 90%;
 }
 
 form {
-	width: 100%;
+	width: 100vw;
 	margin-top: 20px;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	gap: 24px 0px;
 	flex-direction: column;
 }
@@ -120,7 +125,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 100%;
+	width: 60%;
 	gap: 16px 0px;
 }
 
@@ -150,4 +155,10 @@ form {
     h1 {
         font-size: 48px;
     }
+
+	main {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
 }

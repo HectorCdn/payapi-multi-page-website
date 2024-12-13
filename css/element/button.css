@@ -19,7 +19,9 @@
 	font-weight: 700;
 }
 
-.button-primary-hover-state-light {
+
+
+.button-primary-normal-state-light:hover {
 	font-size: 15px;
 	color: white;
 	border: none;
@@ -53,7 +55,7 @@
 	font-weight: 700;
 }
 
-.button-secondary-hover-state-light {
+.button-secondary-normal-state-light:hover {
 	font-size: 15px;
 	color: var(--secondary-light-dark-grey);
 	border: none;
@@ -88,7 +90,7 @@
 	font-weight: 700;
 }
 
-.button-secondary-hover-state-dark {
+.button-secondary-normal-state-dark:hover {
 	font-size: 15px;
 	color: white;
 	border: none;

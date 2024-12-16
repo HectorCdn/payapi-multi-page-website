@@ -1,0 +1,55 @@
+.home-button {
+	display: none;
+}
+
+.home-li {
+	display: none;
+}
+
+.home-circle {
+	position: absolute;
+	top: -150vw;
+	left: -50%;
+	width: 200vw;
+	height: 200vw;
+	background-color: var(--secondary-light-san-juan-blue);
+	border-radius: 50%;
+	z-index: 0;
+	opacity: 25%;
+}
+
+header {
+	position: relative;
+}
+
+body {
+	overflow: hidden;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+	.home-li {
+		display: block;
+	}
+
+	.home-button {
+		display: block;
+	}
+
+	.home-circle {
+		left: 50%;
+		width: 100vw;
+		height: 100vw;
+		top: -80vw;
+	}
+
+	.hero {
+		flex-direction: row-reverse;
+	}
+}

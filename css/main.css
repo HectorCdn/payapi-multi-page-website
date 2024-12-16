@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
+	--primary-dark-pink: #ba4270;
+	--primary-medium-pink: #da6d97;
+	--primary-light-pink: rgba(186, 66, 112, 0.5);
+	--secondary-mirage-blue: #1b262f;
+	--secondary-san-juan-blue: #36536b;
+	--secondary-light-san-juan-blue: #6c8294;
+	--secondary-disabled-light-grey: rgb(201, 207, 211);
+	
+
 	font-family: "Public Sans";
 }
 
 body {
-	height: 100vh;
-	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	background-color: rgba(255, 255, 255, 1);
@@ -16,8 +23,6 @@ header {
 	padding: 40px;
 	height: 30%;
 	width: 100%;
-	background-color: rgba(54, 83, 107, 0.3);
-	border-radius: 10% 10% 43% 43% / 0% 0% 20% 20%;
 }
 
 nav {
@@ -49,7 +54,6 @@ ul {
 	background: center / cover url(/assets/menu.svg);
 	width: 28px;
 	height: 17px;
-	
 }
 
 a {
@@ -103,12 +107,12 @@ h1 {
 }
 
 main {
-   display: flex;
-   flex-direction: column; 
+	display: flex;
+	flex-direction: column;
 }
 
 .first-section {
-    width: 90%;
+	width: 90%;
 }
 
 form {
@@ -138,7 +142,7 @@ form {
 }
 
 .questions {
-    text-align: center;
+	text-align: center;
 	color: #6c8294;
 	font-family: "Public Sans";
 	font-size: 15px;
@@ -147,18 +151,78 @@ form {
 	line-height: normal;
 }
 
+.seconde-section {
+	display: grid;
+	height: 100vh;
+	background-color: var(--secondary-mirage-blue);
+	display: flex;
+	flex-direction: column;
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.seconde-section-part2 {
+	
+}
+
 @media screen and (min-width: 768px) {
 	.menu {
 		display: none;
 	}
 
-    h1 {
-        font-size: 48px;
-    }
+	h1 {
+		font-size: 48px;
+	}
 
+	.hero {
+		height: 50vh;
+	}
+	
 	main {
 		display: flex;
 		flex-direction: row-reverse;
 	}
 
+	.mail {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.field-email {
+		position: absolute;
+		justify-content: start;
+		width: 50%;
+	}
+
+	.button-primary-normal-state-light {
+		position: relative;
+	}
+
+}
+
+@media screen and (min-width: 1080px) {
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.desktop {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-evenly;
+	}
+
+	form {
+		width: 100%;
+	}
+
+	
+
+	.first-section {
+		width: 75%;
+	}
+
+	.seconde-section {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }

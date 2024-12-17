@@ -187,7 +187,6 @@ form {
 
 .third-section {
 	height: 300vh;
-	gap: 24px 0px;
 }
 
 .third-section-part1 {
@@ -221,10 +220,14 @@ form {
 	flex-direction: column;
 	align-items: center;
 	height: 60%;
+	margin-top: 24px;
 }	
 
 .third-section-part3- {
-
+	height: 33%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 footer {

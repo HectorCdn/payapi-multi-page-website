@@ -6,7 +6,7 @@
 	display: none;
 }
 
-.home-circle {
+/* .home-circle {
 	position: absolute;
 	top: -150vw;
 	left: -50%;
@@ -24,7 +24,7 @@ header {
 
 body {
 	overflow: hidden;
-}
+} */
 
 .hero {
 	display: flex;
@@ -42,7 +42,7 @@ body {
 		display: block;
 	}
 
-	.home-circle {
+	/* .home-circle {
 		left: 50%;
 		width: 100vw;
 		height: 100vw;
@@ -51,5 +51,5 @@ body {
 
 	.hero {
 		flex-direction: row-reverse;
-	}
+	} */
 }

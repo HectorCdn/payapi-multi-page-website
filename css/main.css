@@ -20,7 +20,6 @@ body {
 
 header {
 	padding: 40px;
-	height: 30%;
 	width: 100%;
 }
 
@@ -39,13 +38,6 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	list-style-type: none;
-	padding: 0;
-}
-
-#logo {
-	background: center url(/assets/logo.svg);
-	height: 40px;
-	width: 134px;
 	padding: 0;
 }
 
@@ -83,7 +75,6 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	height: auto;
 	margin-top: 20px;
 }
 
@@ -136,7 +127,7 @@ form {
 	border-radius: 100px;
 	background: #fbfcfe;
 	box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-	padding: 15px 25px;
+	padding: 14px 25px;
 	border: none;
 }
 
@@ -151,26 +142,26 @@ form {
 }
 
 .image-marque {
-	height: auto;
 	width: 280px;
 }
 
+/***********Seconde Section***************/
+
 .seconde-section {
 	display: grid;
-	height: 100vh;
 	background-color: var(--secondary-mirage-blue);
 	flex-direction: column;
 	align-items: center;
 	grid-template-rows: 1fr, 2fr;
 	gap: 45px;
 	padding: 40px 24px;
+	margin-top: 40px;
 }
 
 .seconde-section-part1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 30%;
 }
 
 .seconde-section-part2 {
@@ -178,62 +169,110 @@ form {
 	flex-direction: column;
 	align-items: center;
 	gap: 24px;
-	height: 70%;
 }
 
 .text-seconde-section {
 	text-align: center;
 }
 
-.third-section {
-	height: 300vh;
-}
+/*************Third Section********************/
 
 .third-section-part1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 30%;
 }
 
 .html-page {
 	width: 300px;
-	height: auto;
 }
 
 .third-section-p {
-	color:  rgba(108, 130, 148, 1);
+	color: rgba(108, 130, 148, 1);
 	text-align: center;
 	width: 75%;
 	margin-top: 24px;
+	width: 100%;
 }
 
 .third-section-part2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 25%;
 }
 
 .third-section-part3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 60%;
 	margin-top: 24px;
-}	
+	margin: 60px;
+	gap: 60px 0px;
+}
 
 .third-section-part3- {
-	height: 33%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+.third-section-h4 {
+	margin-top: 12px;
+}
+
+.third-section-part4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/********************Footer************************/
+
 footer {
-	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	padding: 40px 20px;
+	margin-top: 20px;
 	background-color: var(--secondary-mirage-blue);
 }
+
+.footer-logo {
+	width: 135px;
+	color: rgba(251, 252, 254, 0.75);
+}
+
+.a-footer {
+	color: rgba(251, 252, 254, 0.75);
+	text-align: center;
+}
+
+.pages {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.social-media {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 24px;
+	width: 100%;
+}
+
+.third-section-part4 {
+	display: flex;
+	gap: 40px;
+}
+
+.image-consumer {
+	height: 88px;
+	width: 88px;
+}
+
+/*****************Media quary*********************/
 
 @media screen and (min-width: 768px) {
 	.menu {
@@ -244,13 +283,14 @@ footer {
 		font-size: 48px;
 	}
 
-	.hero {
-		height: 50vh;
-	}
-
 	main {
 		display: flex;
-		flex-direction: row-reverse;
+	}
+
+	.third-section-part3 {
+		flex-direction: row;
+		gap: 10px;
+		align-items: baseline;
 	}
 
 	.mail {
@@ -268,12 +308,24 @@ footer {
 	.button-primary-normal-state-light {
 		position: relative;
 	}
+
+	footer {
+		flex-direction: row;
+	}
+
+	.pages {
+		flex-direction: row;
+	}
 }
 
 @media screen and (min-width: 1080px) {
 	main {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.hero {
+		flex-direction: row-reverse;
 	}
 
 	.desktop {

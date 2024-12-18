@@ -6,6 +6,10 @@
 	display: none;
 }
 
+.marque-tablet {
+	display: none;
+}
+
 /* .home-circle {
 	position: absolute;
 	top: -150vw;
@@ -30,7 +34,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
-	height: 100vh;
 }
 
 @media screen and (min-width: 768px) {
@@ -40,6 +43,14 @@ body {
 
 	.home-button {
 		display: block;
+	}
+
+	.marque-tablet {
+		display: block;
+	}
+
+	.image-marque {
+		display: none;
 	}
 
 	/* .home-circle {

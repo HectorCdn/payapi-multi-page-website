@@ -2,10 +2,6 @@
 	display: none;
 }
 
-.home-li {
-	display: none;
-}
-
 .marque-tablet {
 	display: none;
 }
@@ -29,12 +25,6 @@ header {
 body {
 	overflow: hidden;
 } */
-
-.hero {
-	display: flex;
-	flex-direction: column;
-	gap: 24px;
-}
 
 @media screen and (min-width: 768px) {
 	.home-li {

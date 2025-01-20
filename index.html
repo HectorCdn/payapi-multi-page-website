@@ -18,15 +18,13 @@
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="stylesheet" href="./css/element/button.css" />
-		<link rel="stylesheet" href="./css/element/style.css" />
 		<link rel="stylesheet" href="./css/element/home.css" />
 	</head>
 	<body>
 		<header>
-			<!-- <div class="home-circle"></div> -->
 			<nav>
 				<ul>
-					<img src="./assets/logo-dark.svg" alt="logo">
+					<img src="./assets/logo-dark.svg" alt="logo" />
 					<li class="home-li">
 						<a href="pages/pricing.html" class="home-button" id="pricing"
 							>Pricing</a
@@ -51,17 +49,17 @@
 		</header>
 		<main>
 			<section class="hero">
-				<div class="phone">
-					<div class="phone-image" alt="phone"></div>
-				</div>
+				<img src="./assets/phone.svg" alt="phone" class="hero-phone" />
 				<section class="first-section">
 					<form action="">
-						<h1>Start building with our APIs for absolutely free.</h1>
+						<h1 class="h1-large">
+							Start building with our APIs for absolutely free.
+						</h1>
 						<div class="mail">
 							<input
 								type="email"
 								placeholder="Enter email address"
-								class="field-email"
+								class="field-email hero-field-mail"
 							/>
 							<button class="button-primary-normal-state-light">
 								Schedule a Demo
@@ -80,10 +78,10 @@
 						alt="logo"
 						class="image-marque"
 					/>
-					<img src="./assets/marque.svg" alt="marque" class="marque-tablet">
+					<img src="./assets/marque.svg" alt="marque" class="marque-tablet" />
 				</article>
 				<div class="seconde-section-part2">
-					<h2 small>Who we work with</h2>
+					<h2 class="h1-small">Who we work with</h2>
 					<p class="text-seconde-section">
 						Today, millions of people around the world have successfully
 						connected their accounts to apps they love using our API. We provide
@@ -104,36 +102,52 @@
 						src="./assets/html-page.svg"
 						alt="menu with html"
 					/>
-					<h3 class="third-section-part1-h3">Easy to implement</h3>
-					<p class="third-section-p">
-						Our API comes with just a few lines of code. You’ll be up and
-						running in no time. We built our documentation page to integrate
-						payments functionality with ease.
-					</p>
+					<div class="third-section-part1-1">
+						<h3 class="h2-small third-section-part1-h3">Easy to implement</h3>
+						<p class="third-section-p">
+							Our API comes with just a few lines of code. You’ll be up and
+							running in no time. We built our documentation page to integrate
+							payments functionality with ease.
+						</p>
+					</div>
 				</div>
 				<div class="third-section-part2">
 					<img class="double-phone" src="./assets/doublePhone.svg" alt="" />
-					<h3>Simple UI & UX</h3>
-					<p class="third-section-p">
-						Our pre-built form is easy to integrate in your app or website’s
-						checkout flow and designed to optimize conversion.
-					</p>
+					<div class="third-section-part2-1">
+						<h3 class="third-section-part1-h3">Simple UI & UX</h3>
+						<p class="third-section-p">
+							Our pre-built form is easy to integrate in your app or website’s
+							checkout flow and designed to optimize conversion.
+						</p>
+					</div>
 				</div>
 				<div class="third-section-part3">
 					<div class="third-section-part3-1 third-section-part3-">
-						<img src="./assets/personalFinance.svg" alt="personalFinance">
+						<img src="./assets/personalFinance.svg" alt="personalFinance" />
 						<h4 class="third-section-h4">Personal Finances</h4>
-						<p class="third-section-p">Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze reports to reconcile activities in your account. </p>
+						<p class="third-section-p">
+							Consolidate financial data from multiple sources and categorize
+							transactions up to 2 years of history. Analyze reports to
+							reconcile activities in your account.
+						</p>
 					</div>
 					<div class="third-section-part3-2 third-section-part3-">
-						<img src="./assets/bankingCoverage.svg" alt="">
+						<img src="./assets/bankingCoverage.svg" alt="" />
 						<h4 class="third-section-h4">Banking & Coverage</h4>
-						<p class="third-section-p">With our platform, you can speed up account onboarding and support ongoing payments for checking, savings, credit card, and brokerage accounts.</p>
+						<p class="third-section-p">
+							With our platform, you can speed up account onboarding and support
+							ongoing payments for checking, savings, credit card, and brokerage
+							accounts.
+						</p>
 					</div>
 					<div class="third-section-part3-3 third-section-part3-">
-						<img src="./assets/Consumer.svg" alt="" class="image-consumer">
+						<img src="./assets/Consumer.svg" alt="" class="image-consumer" />
 						<h4 class="third-section-h4">Consumer Payments</h4>
-						<p class="third-section-p">It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.</p>
+						<p class="third-section-p">
+							It’s easier to set up secure bank payments with us through a flow
+							designed with the user experience in mind. Customers could
+							instantly authenticate their account.
+						</p>
 					</div>
 				</div>
 				<div class="third-section-part4">
@@ -152,7 +166,7 @@
 			</section>
 		</main>
 		<footer>
-			<img src="./assets/logo-light.svg" alt="logo" class="footer-logo">
+			<img src="./assets/logo-light.svg" alt="logo" class="footer-logo" />
 			<div class="pages">
 				<a href="./pages/pricing.html" class="a-footer">Pricing</a>
 				<a href="./pages/about.html" class="a-footer">About</a>
@@ -160,13 +174,13 @@
 			</div>
 			<div class="social-media">
 				<a href="">
-					<img src="./assets/logo-facebook.svg" alt="logo-facebook">
+					<img src="./assets/logo-facebook.svg" alt="logo-facebook" />
 				</a>
 				<a href="">
-					<img src="./assets/twitter.svg" alt="logo-twitter">
+					<img src="./assets/twitter.svg" alt="logo-twitter" />
 				</a>
 				<a href="">
-					<img src="./assets/linkedin.svg" alt="logo-linkedin">
+					<img src="./assets/linkedin.svg" alt="logo-linkedin" />
 				</a>
 			</div>
 		</footer>
